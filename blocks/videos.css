@@ -1,0 +1,21 @@
+.videos {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.videos__item {
+  border-radius: 10px;
+  margin: 50px;
+  transition: 0.5s ease-in-out;
+}
+.videos__item:hover {
+  scale: 1.2;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .videos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
