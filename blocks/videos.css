@@ -2,10 +2,11 @@
   margin: 30px;
   display: flex;
   justify-content: space-around;
+  row-gap: auto;
 }
 .videos__item {
   border-radius: 10px;
-  margin: 50px;
+  margin: auto;
   transition: 0.5s ease-in-out;
 }
 .videos__item:hover {
@@ -13,9 +14,15 @@
   transition: 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 990px) {
   .videos {
     flex-direction: column;
+    align-items: gap;
+    margin: 50px;
     align-items: center;
   }
+  .videos__item {
+    margin: 50px;
+    max-width: 300px
+
 }
