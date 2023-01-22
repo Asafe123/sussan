@@ -4,11 +4,12 @@
 }
 
 .comments__card {
+  max-width: 330px;
   margin: 50px;
   padding: 10px;
   background-color: #ecf0f1;
   opacity: 0.5;
-  max-width: 280px;
+  min-width: 353px;
   direction: rtl;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;

@@ -1,12 +1,8 @@
 .page {
-  background-color: #d35400;
+  background: rgb(34, 195, 182);
   background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(26, 188, 156,1.0) 50%,
-    rgba(52, 152, 219,1.0) 100%
-  );rgb(26, 188, 156);
-  max-width: 880px;
-  margin: 0 auto;
-  align-items: center;
+    0deg,
+    rgba(34, 195, 182, 1) 5%,
+    rgba(182, 81, 245, 1) 90%
+  );
 }
